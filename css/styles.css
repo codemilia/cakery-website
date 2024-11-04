@@ -1,0 +1,78 @@
+.header {
+  background: url(../images/cakery-header.png) center center no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+
+.btn:hover {
+  background: #d6a9b9 !important;
+}
+
+.btn-active {
+  border: 2px solid #d6a9b9 !important;
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  background: url(../images/cakery-footer.png) center center no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+
+@media (min-width: 992px) {
+  .collapse .navbar-nav .nav-item a {
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  .testimonials {
+    width: 80% !important;
+    margin: auto;
+  }
+  .marketing-text .container .card p {
+    font-size: 12pt !important;
+  }
+  .intro-text .container {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+  }
+  .intro-text .container h1 {
+    font-size: 20pt !important;
+  }
+  .entry-cards {
+    width: 100% !important;
+  }
+  .promises {
+    margin-top: 60px !important;
+  }
+  .get-in-touch {
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+  }
+  .get-in-touch .container .row {
+    text-align: center !important;
+  }
+  .get-in-touch .container .row .col-lg-6 .img-container {
+    margin-right: 0px !important;
+  }
+  .get-in-touch .container .row .col-lg-6 .btn-container {
+    margin: 50px !important;
+  }
+  .testimonials p {
+    font-size: 12pt !important;
+  }
+  .footer .credits {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px !important;
+  }
+  .footer .d-flex {
+    font-size: 12px;
+    margin-top: 50px !important;
+  }
+}
